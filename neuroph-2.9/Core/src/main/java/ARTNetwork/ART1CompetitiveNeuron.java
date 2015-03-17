@@ -13,6 +13,10 @@ import org.neuroph.core.Neuron;
  */
 public class ART1CompetitiveNeuron extends Neuron {
     
+    /** In the third ART layer, neurons can have three states:
+     *  active, inactive and inhibited
+     */
+    
     private boolean active = false;
     private boolean inhibited = false;
 
